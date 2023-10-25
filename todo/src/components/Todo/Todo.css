@@ -1,0 +1,21 @@
+.icon{
+    float: right;
+    color: #955dc0;
+}
+
+.task{
+    background: var(--todo_bg);
+    border-radius: 10px;
+    font-weight: bold;
+    height: fit-content;
+    line-break: anywhere;
+    box-shadow : var(--shadow);
+}
+.edit{
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid var(--body_color);
+    color: var(--body_color);
+}
